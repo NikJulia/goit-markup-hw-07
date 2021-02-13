@@ -1,0 +1,9 @@
+.filters__items {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.filters__item:not(:first-child) {
+  margin-left: 8px;
+}

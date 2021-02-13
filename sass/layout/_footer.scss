@@ -1,0 +1,38 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $footer-bg-color;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__headers {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+
+  &__info {
+    margin-right: 70px;
+  }
+
+  &__contacts {
+    width: 231px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: $secondary-text-color;
+  }
+
+  &__contacts-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

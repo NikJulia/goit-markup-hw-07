@@ -1,0 +1,35 @@
+.subscription__block {
+  display: inline-flex;
+}
+
+.subscription__field {
+  margin-right: 12px;
+}
+
+.subscription__input {
+  width: 358px;
+  padding: 14px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.subscription__icon {
+  display: inline-block;
+  margin-left: 10px;
+  fill: currentColor;
+}
